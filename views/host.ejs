@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  <style media="screen">
+  .panel{
+    margin:5% 30%;
+  }
+  </style>
+</head>
+<body>
+
+<div class="container">
+
+  <div class="panel panel-default">
+   <div class="panel-heading"><h2>Host Register</h2></div>
+   <div class="panel-body">
+  <form method="post"action="/host">
+    <div class="form-group">
+      <label for="email">Firstname:</label>
+      <input type="name" class="form-control" name="firstName"id="firstname" placeholder="name">
+    </div>
+    <div class="form-group">
+      <label for="Name">Lastname:</label>
+      <input type="text" class="form-control"name="lastName" id="lastname" placeholder="Enter password">
+    </div>
+    <div class="form-group">
+      <label for="Numbers">Phone Number:</label>
+      <input type="number" class="form-control" name="phonenumber"id="phone number" placeholder="Enter password">
+    </div>
+    <div class="form-group">
+      <label for="add">Address:</label>
+      <input type="text" class="form-control" name="address"id="lastname" placeholder="Enter password">
+    </div>
+  
+    <button type="submit" class="btn btn-md btn-info">Submit</button>
+  </form>
+</div>
+</div>
+
+</div>
+
+</body>
+</html>

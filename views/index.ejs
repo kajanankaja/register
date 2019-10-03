@@ -1,0 +1,55 @@
+<!-- views/index.ejs -->
+<!doctype html>
+<html>
+<head>
+    <title>demo Authentication</title>
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.2/css/bootstrap.min.css"> <!-- load bootstrap css -->
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css"> <!-- load fontawesome -->
+
+</head>
+<body>
+  <!-- nav bar start -->
+  <nav class="navbar navbar-default">
+   <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="/" >Demo</a>
+    </div>
+    <ul class="nav navbar-nav">
+      <li ><a href="/index">Home</a></li>
+      <li><a href="/profile">Profile</a></li>
+    </ul>
+    <ul class="nav navbar-nav navbar-right">
+      
+      <li><a href="/host" ><span class="glyphicon glyphicon-user"></span> Become Host</a></li>
+      <li><a href="/login" ><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+      <li><a href="/signup"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+    </ul>
+   </div>
+  </nav>
+<!-- nav bar end -->
+<div class="container">
+
+    <div class="jumbotron text-center">
+        <h1> Demo </h1>
+
+        <p>Login or Register:</p>
+
+
+
+
+    <div class="container-fluid">
+
+  <div class="row">
+    <div class="col-sm-6" >
+
+      <center><a href="/login" class="btn btn-default btn-lg  " style="background-color:green;"><span class="fa fa-user"></span> Login</a> </center>
+    </div>
+    <div class="col-sm-6" >
+      <center>  <a href="/signup" class="btn btn-default btn-lg btn-info " ><span class="fa fa-user"></span> Signup</a></center>
+    </div>
+  </div>
+</div>
+  </div>
+</div>
+</body>
+</html>
